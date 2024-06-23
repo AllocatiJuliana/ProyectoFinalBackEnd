@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 //mongoose
 mongoose.set("strictQuery", false);
 mongoose.connect(
-  `mongodb+srv://juliallocati:<password>@cluster0.r9tgtld.mongodb.net/ecommerce`,
+  `mongodb+srv://juliallocati:030392juliana@cluster0.r9tgtld.mongodb.net/ecommerce`,
   (err) => {
     if (err) {
       console.log("No se puede conectar a la base de dato ", err.message);
